@@ -43,6 +43,9 @@ def get_name_surname_urllib(target_url: str) -> None:
 
 
 def get_name_surname_requests(target_url: str) -> None:
+    """
+    Raises GetNameSurnameException if fails
+    """
     print('\nRunning get_name_surname_requests')
     try:
         r = requests.get(target_url)
