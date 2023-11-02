@@ -1,0 +1,9 @@
+name;surname
+imie1;nazwisko1
+imie2;nazwisko2
+imie1;nazwisko1
+imie1;nazwisko1
+imie1;nazwisko1
+imie1;nazwisko1
+imie1;nazwisko1
+imie1;nazwisko3

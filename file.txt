@@ -1,0 +1,2 @@
+imie1;nazwisko1
+imie2;nazwisko2
