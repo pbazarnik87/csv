@@ -81,7 +81,7 @@ def get_dict_name_surname_csv_lib(file_name: str) -> List[Dict]:
         logger.error(f'FileNotFoundError - {e}')
 
 
-def amount_of_value_repetitions_for_key(list_full_names: List[Dict], key, value) -> None:
+def amount_of_value_repetitions_for_key(list_full_names: List[Dict], key: str, value: str) -> None:
     print('\nRunning amount_of_value_repetitions_for_key')
     amount = len([item for item in list_full_names if item[key] == value])
     print(f"amount of value: '{value}' for key: '{key}' equals {amount}")
